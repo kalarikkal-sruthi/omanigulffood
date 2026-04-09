@@ -1,0 +1,124 @@
+.health-box:hover h1 {
+  background-color: #feb801;
+  color: white;
+}
+
+.health-box:hover img {
+  opacity: .8;
+}
+
+.health-box-img h1 {
+  font-weight: bold;
+  font-family: "Colus Regular";
+  font-size: 25px;
+  color: #000;
+}
+
+.health-box-img {
+  /* padding: 0px 14px; */
+  background: #f7f7f7;
+  /* margin-right: 20px; */
+}
+
+.health-box-img-second {
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.health-box-img-second h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Colus Regular";
+  font-size: 25px;
+  color: #000;
+}
+
+.health-box-img-second:hover h1 {}
+
+.health-box-img-second p {
+
+  text-align: justify;
+
+}
+
+.health-box {
+  margin: 30px 0px 0px 30px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px 0px;
+  border: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+
+  /* border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    background: ;
+    background: #ffcb05;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: "Colus Regular"; */
+}
+
+.accordion-button {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px 0px;
+  font-size: 20px;
+  border: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border-color: #feb801;
+  outline: 0;
+  box-shadow: none;
+  color: black;
+  background-color: #feb801;
+  font-family: "Colus Regular";
+}
+
+.accordion-button:not(.collapsed) {
+  border: none;
+  color: #000;
+  text-transform: uppercase;
+
+  background-color: #feb801;
+}
+
+.inc-recipes {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 0px 0px;
+  color: #feb801;
+}
+
+.recipes-head {
+  font-size: 25px;
+  box-shadow: none;
+  color: #000;
+  /* background-color: #feb801; */
+  font-family: "Colus Regular";
+  /* margin: 20px 0px; */
+}
+
+.recipes-head:hover {
+  color: black;
+}
+
+.recipes-img:hover img {
+  opacity: .8;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 24px 0px;
+}
+
+.recipes-img img {
+  border-radius: 30px;
+}

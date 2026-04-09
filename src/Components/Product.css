@@ -1,0 +1,53 @@
+.product-image img {
+    width: 100%;
+}
+
+.product-image {
+    position: relative;
+    padding: 0px 10px;
+}
+
+.content-img {
+    position: absolute;
+    bottom: 10%;
+    text-align: center;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content-img h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content-img button {
+    border-radius: 30px;
+}
+.content-img button:hover{
+    background-color: bisque;
+}
+h1.product-title {
+    /* font-size: 85px !important; */
+}
+
+.productcompny {
+    padding: 40px 0px;
+}
+
+.sliderimport .carousel-caption {
+    left: 9% !important;
+}
+
+.product-para p {
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    font-family: "Colus Regular";
+    /* font-weight: 600; */
+}
+
+.product-para {
+    padding-bottom: 30px;
+}

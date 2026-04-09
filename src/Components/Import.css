@@ -1,0 +1,77 @@
+.export p {
+    /* margin-bottom: 0px; */
+    color: #000;
+}
+
+
+.import p {
+    position: relative;
+    color: #000;
+    padding: 20px 0px 20px 0px;
+
+
+}
+
+.import p::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #feca05;
+    transform: translateY(-50%, -50%);
+}
+
+.import h1 {
+    font-weight: bold;
+    font-family: "Colus Regular";
+    font-size: 35px;
+    color: #000;
+
+}
+
+.export h1 {
+    font-weight: bold;
+    font-family: "Colus Regular";
+    font-size: 35px;
+    color: #000;
+
+}
+
+.sliderimport .carousel-caption h1 {
+    border-left: 5px solid #fff;
+    padding-left: 15px;
+    margin-top: 0px;
+    text-align: start;
+    /* font-family: Helvetica Neue Bold; */
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
+    font-family: Helvetica Neue Bold;
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 80px;
+    margin-bottom: 20%;
+
+
+
+
+
+
+
+
+    letter-spacing: 2px;
+    line-height: 90px;
+
+    word-spacing: 6px;
+    font-family: "Colus Regular";
+
+}
+
+.sliderimport .carousel-control-prev-icon {
+    display: none;
+}
+
+.sliderimport .carousel-control-next-icon {
+    display: none;
+}

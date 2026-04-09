@@ -1,0 +1,63 @@
+.board-of-directors {
+    position: relative;
+}
+.board-of-directors img{
+    width: 100%;
+}
+.borad-para {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.borad-para p {
+
+    font-weight: bold;
+    color: #000;
+    font-family: "Colus Regular";
+    line-height: 35px;
+    font-size: 20px;
+
+
+  
+    text-align: justify;
+
+}
+
+.client {
+    position: relative;
+    display: inline;
+}
+.client img{
+    width: 100%;
+  
+}
+.client-banner{
+    height: 960px;
+}
+.clienimages {
+    position: absolute;
+    top: 220%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    color: white;
+    /* padding: 10px; */
+}
+
+
+
+.clienimages img {
+    width: 320px;
+
+}
+
+.divname {
+    text-align: center;
+    margin-bottom: 60px;
+    /* margin: 20px; */
+    /* width: 200px; */
+}
