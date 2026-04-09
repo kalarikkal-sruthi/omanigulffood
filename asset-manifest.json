@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd0eaadb.css",
+    "main.js": "/static/js/main.9c966473.js",
+    "static/media/oilbannertwo.jpg": "/static/media/oilbannertwo.01acaf0a6ef29ff35952.jpg",
+    "static/media/Tank Image.jpg": "/static/media/Tank Image.eebced83330187160842.jpg",
+    "static/media/Logo-3D.gif": "/static/media/Logo-3D.9d96d287d5af73953a37.gif",
+    "static/media/FontsFree-Net-Colus-Regular.ttf": "/static/media/FontsFree-Net-Colus-Regular.fc3631e22a71c70ddc9b.ttf",
+    "static/media/TheSans Plain.ttf": "/static/media/TheSans Plain.81257d9d68151748e38a.ttf",
+    "static/media/TheSans Bold.otf": "/static/media/TheSans Bold.6eff96d7a14d384f1ade.otf",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.bd0eaadb.css.map": "/static/css/main.bd0eaadb.css.map",
+    "main.9c966473.js.map": "/static/js/main.9c966473.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd0eaadb.css",
+    "static/js/main.9c966473.js"
+  ]
+}
