@@ -54,9 +54,86 @@ function App() {
   return (
 
     <div >
-      {
+      <div className="App">
+            <Topbar />
+            <Routes>
+              <Route path='/' element={<Home />} ></Route>
+            </Routes>
+            <Routes>
+              <Route path='/about-us' element={<Aboutogfc />}></Route>
+            </Routes>
+            <Routes>
+              <Route path='/board-of-directors' element={<Boardofdirectors />}></Route>
+            </Routes>
+            <Routes>
+              <Route path='/importexport' element={<Importexport />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/ourproduct' element={<Ourproduct />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/contact-us' element={<Contact />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/oil-products' element={<Oilproducts />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/non-oilproducts' element={<Nonoilproducts />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/mission-quality' element={<Qualitymanagement />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/private-brands' element={<Privtatebrands />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/quality-certification' element={<Certification />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/recipe' element={<Recipes />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/health-tips' element={<Healthtips />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/careers' element={<Careersmain />}></Route >
+            </Routes>
+
+            <Routes>
+              <Route path='/palmolein-details' element={<Palmoilproductdetails />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/sunfloweroil-details' element={<Sunfloweroilproductdetails />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/cornoil-details' element={<Cornoil />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/cornblend-oil' element={<Cornblendoil />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/frying-oil' element={<Fryingoil />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/cooking-oil' element={<Cookingoil />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/df-olein' element={<Dfolein />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/ghee' element={<Ghee />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/shortening' element={<Shortening />}></Route >
+            </Routes>
+            <Routes>
+              <Route path='/gallery' element={<Gallery />}></Route >
+            </Routes>
+
+            </div>
+      {/* {
         loading ? (<div className="loader-container" >
-          {/* <div className="spinner"></div> */}
+        
         </div>) : (
           <div className="App">
             <Topbar />
@@ -134,14 +211,12 @@ function App() {
               <Route path='/gallery' element={<Gallery />}></Route >
             </Routes>
 
-            {/* <Routes>
-        <Route path='/cooking' element={<Cookingoil/>}></Route >
-      </Routes> */}
+            
           </div>
 
         )
 
-      }
+      } */}
     </div>)
 }
 
