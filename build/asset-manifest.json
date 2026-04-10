@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7be52a9f.css",
+    "main.js": "/static/js/main.b71dcec8.js",
+    "static/media/Tank Image.jpg": "/static/media/Tank Image.eebced83330187160842.jpg",
+    "static/media/Logo-3D.gif": "/static/media/Logo-3D.9d96d287d5af73953a37.gif",
+    "static/media/FontsFree-Net-Colus-Regular.ttf": "/static/media/FontsFree-Net-Colus-Regular.fc3631e22a71c70ddc9b.ttf",
+    "static/media/oilbanner.jpg": "/static/media/oilbanner.fdd8b5420355fdd7fbca.jpg",
+    "index.html": "/index.html",
+    "main.7be52a9f.css.map": "/static/css/main.7be52a9f.css.map",
+    "main.b71dcec8.js.map": "/static/js/main.b71dcec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7be52a9f.css",
+    "static/js/main.b71dcec8.js"
+  ]
+}
